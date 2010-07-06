@@ -1,0 +1,10 @@
+#summary Installation Guide for Binary Releases
+
+= Installation Guideline =
+
+  * Download the Release and Unzip to any Folder you like
+  * Install the Visual Basic 6.0 Runtime (located in the Folder "Redist")
+  * Register the Microsoft Flex Grid Control 6.0
+     * Copy the File "msflxgrd.ocx" from the "Redist" Directory to C:\Windows\system32
+     * Open a Command Line Prompt with Administrative Rights
+     * Run "regsvr32 C:\Windows\System32\msflxgrd.ocx"
